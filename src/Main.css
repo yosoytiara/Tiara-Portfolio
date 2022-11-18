@@ -1,0 +1,134 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+}
+footer li {
+  display: inline;
+  padding: 8px;
+  font-size: 20px;
+}
+h1 {
+  font-size: 100px;
+  padding: 0;
+}
+h3 {
+  margin-top: -92px;
+  font-size: 50px;
+  font-weight: 300;
+}
+nav ul {
+  list-style-type: none;
+  margin-left: 1080px;
+  padding: 10px;
+  text-align: left;
+}
+img {
+  padding: 0;
+}
+a {
+  color: black;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+nav li {
+  display: inline;
+  padding: 8px;
+}
+marquee {
+  padding: 10px;
+}
+.info {
+  font-size: 40px;
+  padding-top: 100px;
+}
+.intro {
+  padding-top: 100px;
+}
+.Skills {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.Skills ul {
+  list-style-type: none;
+  font-size: 23px;
+}
+
+.Skills li {
+  display: inline;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.Skills i {
+  font-size: 66px;
+
+  color: rgb(0, 217, 255);
+}
+
+footer i {
+  color: rgb(136, 255, 39);
+}
+.NA {
+  text-align: center;
+}
+.about {
+  text-align: center;
+  padding: 0 180px;
+  padding-bottom: 40px;
+}
+
+.tiara {
+  display: block;
+  margin: 0 auto;
+  border-radius: 35px;
+}
+
+.con {
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  color: rgb(0, 217, 255);
+  font-weight: bold;
+}
+
+.con i {
+  font-size: 60px;
+}
+
+.tech {
+  display: inline;
+
+  padding: 7px;
+
+  border: 2px solid pink;
+
+  border-radius: 15px;
+}
+
+.proj {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.projone:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.listone {
+  padding-top: 10px;
+}
+
+footer {
+  background-color: cornflowerblue;
+}
