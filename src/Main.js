@@ -18,7 +18,7 @@ export default function Main() {
               <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="Contact.html">Contact</a>
+              <a href="#footer">Contact</a>
             </li>
           </ul>
         </nav>
@@ -33,9 +33,13 @@ export default function Main() {
           </div>
         </div>
         <hr />
+        <br />
+        <br />
         <About />
         <div class="Skills">
-          <a href="#listone">Technical Skillset</a>
+          <a href="#listone" className="techs">
+            Technical Skillset
+          </a>
           <ul id="listone" class="listone">
             <li>
               <i class="fa-brands fa-html5"></i>HTML
@@ -64,7 +68,7 @@ export default function Main() {
         </div>
         <Project />
         <br />
-        <footer>
+        <footer id="footer">
           <ul>
             <li>
               <a
