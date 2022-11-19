@@ -41,9 +41,7 @@ nav li {
   display: inline;
   padding: 8px;
 }
-marquee {
-  padding: 10px;
-}
+
 .info {
   font-size: 40px;
   padding-top: 100px;
@@ -71,11 +69,12 @@ marquee {
 .Skills i {
   font-size: 66px;
 
-  color: rgb(0, 217, 255);
+  color: rgb(101, 173, 255);
 }
 
 footer i {
-  color: rgb(136, 255, 39);
+  color: rgb(101, 173, 255);
+  font-size: 40px;
 }
 .NA {
   text-align: center;
@@ -130,5 +129,18 @@ footer i {
 }
 
 footer {
-  background-color: cornflowerblue;
+  background-color: rgb(255, 255, 255);
+}
+.PROJt {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.techs {
+  font-weight: bold;
+}
+
+img {
+  text-align: center;
 }
