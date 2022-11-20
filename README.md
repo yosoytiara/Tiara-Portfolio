@@ -1,4 +1,4 @@
-👩🏾‍💻Personal Portfolio Website --> [LIVE] (https://fastidious-starship-7d2bdf.netlify.app/#projects)
+👩🏾‍💻Personal Portfolio Website --> [LIVE](https://fastidious-starship-7d2bdf.netlify.app/#projects).
 
 # Getting Started with Create React App
 
