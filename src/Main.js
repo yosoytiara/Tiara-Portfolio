@@ -2,6 +2,7 @@ import React from "react";
 import "./Main.css";
 import Project from "./Projects";
 import About from "./About";
+import Nav from "./Nav";
 export default function Main() {
   return (
     <div className="main">
@@ -22,7 +23,7 @@ export default function Main() {
             </li>
           </ul>
         </nav>
-
+        <Nav />
         <div class="Intro">
           <h1>Tiara Dillard</h1>
           <h3>Front-End Developer</h3>
