@@ -27,27 +27,27 @@ export default function Main() {
           </a>
           <ul id="listone" class="listone">
             <li>
-              <i class="fa-brands fa-html5"></i>HTML
+              <i className="fa-brands fa-html5"></i>HTML
             </li>
             <li>
-              <i class="fa-brands fa-css3-alt"></i>CSS
+              <i className="fa-brands fa-css3-alt"></i>CSS
             </li>
             <li>
-              <i class="fa-brands fa-js"></i>JavaScript
+              <i className="fa-brands fa-js"></i>JavaScript
             </li>
             <li>
-              <i class="fa-brands fa-react"></i>React.js
+              <i className="fa-brands fa-react"></i>React.js
             </li>
           </ul>
-          <ul class="listtwo">
+          <ul className="listtwo">
             <li>
-              <i class="fa-solid fa-window-maximize"></i>APIs
+              <i className="fa-solid fa-window-maximize"></i>APIs
             </li>
             <li>
-              <i class="fa-solid fa-palette"></i>PhotoShop
+              <i className="fa-solid fa-palette"></i>PhotoShop
             </li>
             <li>
-              <i class="fa-solid fa-database"></i>SQL
+              <i className="fa-solid fa-database"></i>SQL
             </li>
           </ul>
         </div>

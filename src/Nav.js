@@ -1,10 +1,18 @@
+import { useState } from "react";
 import React from "react";
+
 import "./Main.css";
 
 export default function Nav() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <nav className="navigation">
-      <button className="hamburger">
+      <button
+        className="hamburger"
+        onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+        }}
+      >
         {/* icon from heroicons.com */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -19,13 +27,21 @@ export default function Nav() {
           />
         </svg>
       </button>
-      <div className="navigation-menu">
+
+      <div
+        className={
+          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+        }
+      >
         <ul>
           <li>
             <a href="/home">Home</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/home">Projects</a>
+          </li>
+          <li>
+            <a href="/home">About</a>
           </li>
           <li>
             <a href="/contact">Contact</a>
