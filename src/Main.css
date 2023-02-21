@@ -284,7 +284,8 @@ navbar.css .brand-name {
   h3 {
     font-size: 40px;
   }
-  .Skills li {
+  .skills li {
+    display: block;
     font-size: 20px;
     margin: 10px 35px;
   }

@@ -35,6 +35,8 @@ export default function Main() {
             <li>
               <i className="fa-brands fa-js"></i>JavaScript
             </li>
+          </ul>
+          <ul>
             <li>
               <i className="fa-brands fa-react"></i>React.js
             </li>
