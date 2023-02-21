@@ -32,6 +32,7 @@ img {
   text-align: center;
   border-radius: 13px;
 }
+
 a {
   color: black;
 }
@@ -74,11 +75,11 @@ nav li {
 .Skills i {
   font-size: 66px;
 
-  color: rgb(255, 174, 229);
+  color: rgb(243, 150, 213);
 }
 
 footer i {
-  color: rgb(255, 174, 229);
+  color: rgb(243, 150, 213);
   font-size: 40px;
 }
 .NA {
@@ -150,6 +151,7 @@ footer {
 
 .navigation {
   height: 60px;
+
   width: 100%;
   display: flex;
   align-items: center;
@@ -254,6 +256,6 @@ navbar.css .brand-name {
   }
   .Skills li {
     font-size: 20px;
-    margin: 10px 40px;
+    margin: 10px 35px;
   }
 }

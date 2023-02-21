@@ -13,9 +13,7 @@ export default function Main() {
           <h3>Front-End Developer</h3>
           <div class="info">
             <p>
-              <em>
-                <mark>Creative. Passionate. Innovative.</mark>
-              </em>
+              <em>Creative. Passionate. Innovative.</em>
             </p>
           </div>
         </div>

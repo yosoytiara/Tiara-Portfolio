@@ -38,13 +38,13 @@ export default function Nav() {
             <a href="/home">Home</a>
           </li>
           <li>
-            <a href="/home">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="/home">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="#footer">Contact</a>
           </li>
         </ul>
       </div>
