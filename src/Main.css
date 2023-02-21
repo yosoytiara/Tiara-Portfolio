@@ -151,7 +151,7 @@ footer {
 
 .info {
   color: rgb(124, 210, 249);
-  font-family: monospace;
+
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.1em solid rgb(83, 188, 244); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -176,7 +176,7 @@ footer {
     border-color: transparent;
   }
   50% {
-    border-color: rgb(5, 5, 5);
+    border-color: rgb(112, 193, 231);
   }
 }
 .navigation {
@@ -287,5 +287,8 @@ navbar.css .brand-name {
   .Skills li {
     font-size: 20px;
     margin: 10px 35px;
+  }
+  .info {
+    font-size: 20px;
   }
 }
