@@ -12,17 +12,25 @@ footer li {
 h1 {
   text-align: center;
   font-size: 100px;
-  padding: 0;
+  padding-top: 120px;
 }
 h3 {
   text-align: center;
-  margin-top: -92px;
+  font-family: "Aguafina Script", cursive;
+
   font-size: 50px;
   font-weight: 300;
 }
 
 img {
   padding: 0;
+  height: 60%;
+  width: 60%;
+
+  display: block;
+  margin: 0;
+  text-align: center;
+  border-radius: 13px;
 }
 a {
   color: black;
@@ -66,11 +74,11 @@ nav li {
 .Skills i {
   font-size: 66px;
 
-  color: rgb(101, 173, 255);
+  color: rgb(255, 174, 229);
 }
 
 footer i {
-  color: rgb(101, 173, 255);
+  color: rgb(255, 174, 229);
   font-size: 40px;
 }
 .NA {
@@ -132,15 +140,12 @@ footer {
 .PROJt {
   font-size: 30px;
   text-align: center;
-  font-weight: bold;
+
+  font-family: "Aguafina Script", cursive;
 }
 
 .techs {
-  font-weight: bold;
-}
-
-img {
-  text-align: center;
+  font-family: "Aguafina Script", cursive;
 }
 
 .navigation {
@@ -241,7 +246,8 @@ navbar.css .brand-name {
   }
   h1 {
     font-size: 60px;
-    margin-bottom: 70px;
+
+    margin-bottom: 75px;
   }
   h3 {
     font-size: 40px;
