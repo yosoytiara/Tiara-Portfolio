@@ -20,9 +20,7 @@ export default function Main() {
       <br />
 
       <div class="Skills">
-        <a href="#listone" className="techs">
-          Technical Skillset
-        </a>
+        <p className="techs">Technical Skillset</p>
         <ul id="listone" class="listone">
           <li>
             <i className="fa-brands fa-html5"></i>HTML
@@ -83,6 +81,7 @@ export default function Main() {
             </a>
           </li>
         </ul>
+        <p>©Tiara Dillard</p>
       </footer>
       <script
         src="https://kit.fontawesome.com/452d94b75d.js"
