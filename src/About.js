@@ -1,9 +1,11 @@
 import React from "react";
+import Nav from "./Nav";
 
 export default function About() {
   return (
     <div id="about" className="about">
-      <div class="about">
+      <Nav />
+      <div class="aboutme">
         <p>
           Hi, I am Tiara Dillard a Front-end Developer and Graphic Designer
           based in New York City. I was first introduced to Software engineering

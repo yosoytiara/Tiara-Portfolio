@@ -2,6 +2,7 @@ import { useState } from "react";
 import React from "react";
 
 import "./Main.css";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -34,14 +35,12 @@ export default function Nav() {
         }
       >
         <ul>
+          <Link to="/"> Home</Link>
           <li>
-            <a href="/home">Home</a>
+            <Link to="/projects"> Projects</Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
+            <Link to="/About"> About</Link>
           </li>
           <li>
             <a href="#footer">Contact</a>

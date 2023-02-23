@@ -1,9 +1,10 @@
 import React from "react";
 import "./Main.css";
-
-export default function Project() {
+import Nav from "./Nav";
+export default function Projects() {
   return (
     <div id="projects" className="project">
+      <Nav></Nav>
       <p className="PROJt">Projects</p>
       <div class="container">
         <div class="row">
