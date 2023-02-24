@@ -20,10 +20,11 @@ export default function Main() {
       <br />
 
       <div class="Skills">
-        <p className="techs">Technical Skillset</p>
+        <p className="techs">Skills & Tools </p>
         <ul id="listone" class="listone">
           <li>
-            <i className="fa-brands fa-html5"></i>HTML
+            <i className="fa-brands fa-html5"></i>
+            HTML
           </li>
           <li>
             <i className="fa-brands fa-css3-alt"></i>CSS
@@ -35,6 +36,12 @@ export default function Main() {
         <ul>
           <li>
             <i className="fa-brands fa-react"></i>React.js
+          </li>
+          <li>
+            <i class="fa-brands fa-git-alt"></i>Git
+          </li>
+          <li>
+            <i class="fa-brands fa-java"></i>Java
           </li>
         </ul>
         <ul className="listtwo">

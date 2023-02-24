@@ -18,6 +18,44 @@ export default function About() {
             is always eager to learn new skills.
           </p>
         </div>
+
+        <div class="Skills">
+          <p className="techs">Skills & Tools </p>
+          <ul id="listone" class="listone">
+            <li>
+              <i className="fa-brands fa-html5"></i>
+              HTML
+            </li>
+            <li>
+              <i className="fa-brands fa-css3-alt"></i>CSS
+            </li>
+            <li>
+              <i className="fa-brands fa-js"></i>JavaScript
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <i className="fa-brands fa-react"></i>React.js
+            </li>
+            <li>
+              <i class="fa-brands fa-git-alt"></i>Git
+            </li>
+            <li>
+              <i class="fa-brands fa-java"></i>Java
+            </li>
+          </ul>
+          <ul className="listtwo">
+            <li>
+              <i className="fa-solid fa-window-maximize"></i>APIs
+            </li>
+            <li>
+              <i className="fa-solid fa-palette"></i>PhotoShop
+            </li>
+            <li>
+              <i className="fa-solid fa-database"></i>SQL
+            </li>
+          </ul>
+        </div>
         <footer>
           <ul>
             <li>

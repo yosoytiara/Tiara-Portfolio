@@ -117,10 +117,10 @@ footer i {
 
 /* The typing effect */
 .info {
-  color: rgb(124, 210, 249);
+  color: rgb(0, 0, 0);
 
   overflow: hidden;
-  border-right: 0.1em solid rgb(83, 188, 244);
+  border-right: 0.1em solid rgb(0, 0, 0);
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.15em;
@@ -141,7 +141,7 @@ footer i {
     border-color: transparent;
   }
   50% {
-    border-color: rgb(112, 193, 231);
+    border-color: rgb(0, 0, 0);
   }
 }
 /* Nav Bar */

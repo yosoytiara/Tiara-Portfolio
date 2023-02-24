@@ -26,7 +26,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
               >
-                | Code
+                <span>Code</span>
               </a>
             </div>
             <div class="col">
@@ -51,7 +51,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
               >
-                | Code
+                <span>Code</span>
               </a>
             </div>
             <div class="col">
@@ -69,7 +69,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Code
+                <span>Code</span>
               </a>
             </div>
             <div class="col">
