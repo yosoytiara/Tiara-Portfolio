@@ -1,11 +1,12 @@
 import React from "react";
 import MainLayout from "./mainLayout";
+import "./projects.css";
 
 export default function Projects() {
   return (
     <div id="projects" className="project">
       <MainLayout>
-        <p className="PROJt">Projects</p>
+        <h1>Projects</h1>
         <div class="container">
           <div class="row">
             <div class="col">
@@ -52,6 +53,29 @@ export default function Projects() {
               >
                 | Code
               </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col ">
+              <div className="refy">
+                <img
+                  src="refy1.gif"
+                  alt="Refy Beauty Landing page"
+                  width="400"
+                  className="refy-img"
+                />
+                <br></br>
+                Refy Beauty Landing Page
+                <br></br>
+                <a
+                  href="https://github.com/yosoytiara/React-Weather-app"
+                  alt="Reft Beauty app Github"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Code
+                </a>
+              </div>
             </div>
           </div>
         </div>

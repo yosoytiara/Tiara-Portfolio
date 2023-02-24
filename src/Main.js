@@ -59,7 +59,7 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fa-solid fa-envelope"></i>Email
+              <i class="fa-solid fa-envelope"></i>
             </a>
           </li>
           <li>
@@ -68,7 +68,7 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fa-brands fa-square-github"></i>GitHub
+              <i class="fa-brands fa-square-github"></i>
             </a>
           </li>
           <li>
@@ -77,7 +77,7 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fa-brands fa-linkedin"></i>Linkedin
+              <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>
         </ul>
