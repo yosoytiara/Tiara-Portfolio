@@ -1,10 +1,12 @@
 import React from "react";
+import "./About.css";
 import MainLayout from "./mainLayout";
 
 export default function About() {
   return (
     <div id="about" className="about">
       <MainLayout>
+        <h1>About Me</h1>
         <div class="aboutme">
           <p>
             Hi, I am Tiara Dillard a Front-end Developer and Graphic Designer
@@ -16,6 +18,37 @@ export default function About() {
             is always eager to learn new skills.
           </p>
         </div>
+        <footer>
+          <ul>
+            <li>
+              <a
+                href="mailto: tiara.dillard2@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-solid fa-envelope"></i>Email
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/yosoytiara/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-square-github"></i>GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="http://www.linkedin.com/in/tiara-dillard"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-linkedin"></i>Linkedin
+              </a>
+            </li>
+          </ul>
+        </footer>
       </MainLayout>
     </div>
   );
