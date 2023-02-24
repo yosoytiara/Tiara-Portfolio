@@ -8,12 +8,10 @@ export default function Projects() {
       <MainLayout>
         <h1>Projects</h1>
         <div class="container">
+          <hr></hr>
           <div class="row">
             <div class="col">
-              <img src="Weather.png" alt="Weather App" width="300" />
-              <br></br>
-              Vanilla JavaScript Weather App
-              <br></br>
+              <h2> Vanilla JavaScript Weather App</h2>
               <a
                 href="https://shimmering-kelpie-e14ec7.netlify.app/"
                 alt="Weather app Live"
@@ -31,12 +29,14 @@ export default function Projects() {
                 | Code
               </a>
             </div>
-
             <div class="col">
-              <img src="react.png" alt="React Weather App" width="400" />
-              <br></br>
-              React Weather App
-              <br></br>
+              <img src="Weather.png" alt="Weather App" width="300" />
+            </div>
+          </div>
+          <hr></hr>
+          <div class="row">
+            <div class="col">
+              <h2>React Weather App</h2>
               <a
                 href="https://imaginative-khapse-6ac5b0.netlify.app/"
                 alt="Weather app Live"
@@ -54,9 +54,25 @@ export default function Projects() {
                 | Code
               </a>
             </div>
+            <div class="col">
+              <img src="react.png" alt="React Weather App" width="400" />
+            </div>
           </div>
-          <div class="row">
-            <div class="col ">
+
+          <hr></hr>
+          <div class="row ">
+            <div class="col">
+              <h2> Refy Beauty Landing Page</h2>
+              <a
+                href="https://github.com/yosoytiara/React-Weather-app"
+                alt="Reft Beauty app Github"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Code
+              </a>
+            </div>
+            <div class="col">
               <div className="refy">
                 <img
                   src="refy1.gif"
@@ -64,21 +80,11 @@ export default function Projects() {
                   width="400"
                   className="refy-img"
                 />
-                <br></br>
-                Refy Beauty Landing Page
-                <br></br>
-                <a
-                  href="https://github.com/yosoytiara/React-Weather-app"
-                  alt="Reft Beauty app Github"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Code
-                </a>
               </div>
             </div>
           </div>
         </div>
+        <hr></hr>
       </MainLayout>
     </div>
   );
