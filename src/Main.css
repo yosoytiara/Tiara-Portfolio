@@ -110,26 +110,24 @@ a:visited {
   padding-top: 10px;
 }
 
-.PROJt {
-  font-size: 30px;
-  text-align: center;
-
-  font-family: "Aguafina Script", cursive;
-}
-
 .techs {
   font-family: "Aguafina Script", cursive;
 }
 
 /* Footer */
+footer p {
+  text-align: center;
+  font-size: 10px;
+}
 footer li {
   display: inline;
   padding: 8px;
   font-size: 20px;
 }
 footer i {
-  color: rgb(243, 150, 213);
-  font-size: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-align: left;
 }
 
 /* The typing effect */
@@ -197,6 +195,7 @@ navbar.css .brand-name {
   display: block;
   width: 100%;
 }
+
 .hamburger {
   border: 0;
   height: 40px;
