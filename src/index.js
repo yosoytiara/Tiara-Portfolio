@@ -4,6 +4,7 @@ import "./index.css";
 import Main from "./Main";
 import About from "./About";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
