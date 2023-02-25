@@ -23,3 +23,11 @@ span:hover,
 em:hover {
   background-color: #000000;
 }
+
+/* Smaller screens */
+
+@media only screen and (max-width: 600px) {
+  .projects h2 {
+    font-size: 15px;
+  }
+}
