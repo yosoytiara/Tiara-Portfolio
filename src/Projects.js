@@ -46,7 +46,7 @@ export default function Projects() {
                 <em>Live </em>
               </a>
               <a
-                href="https://github.com/yosoytiara/React-Weather-app"
+                href="https://github.com/yosoytiara/RefyBeauty"
                 alt="React Weather app Github"
                 target="_blank"
                 rel="noreferrer"
