@@ -46,7 +46,7 @@ a:visited {
 
 .Skills ul {
   list-style-type: none;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .Skills li {
@@ -251,9 +251,10 @@ navbar.css .brand-name {
   }
   .skills li {
     display: block;
-    font-size: 18px;
+    font-size: 15px;
     margin: 10px 35px;
   }
+
   .info {
     font-size: 20px;
   }
