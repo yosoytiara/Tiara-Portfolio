@@ -1,3 +1,6 @@
+.main {
+  background: rgb(255, 255, 255);
+}
 body {
   color: rgb(0, 0, 0);
   font-family: "Oswald", sans-serif;
@@ -9,12 +12,14 @@ h1 {
   text-align: center;
   font-size: 100px;
   padding-top: 120px;
+  font-family: "Aguafina Script", cursive;
 }
 h3 {
   text-align: center;
-  font-family: "Aguafina Script", cursive;
-  font-size: 50px;
-  font-weight: 300;
+
+  font-size: 40px;
+
+  color: rgb(246, 145, 211);
 }
 
 a {
@@ -58,7 +63,7 @@ a:visited {
 .Skills i {
   font-size: 66px;
 
-  color: rgb(243, 150, 213);
+  color: rgb(246, 145, 211);
 }
 
 .NA {
@@ -69,19 +74,6 @@ a:visited {
   display: block;
   margin: 0 auto;
   border-radius: 35px;
-}
-
-.con {
-  list-style-type: none;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 40px;
-  color: rgb(0, 217, 255);
-  font-weight: bold;
-}
-
-.con i {
-  font-size: 60px;
 }
 
 .tech {
@@ -99,23 +91,31 @@ a:visited {
 }
 
 .techs {
-  font-family: "Aguafina Script", cursive;
+  color: rgb(183, 186, 255);
 }
 
 /* Footer */
+footer {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
 footer p {
   text-align: center;
   font-size: 10px;
 }
+footer ul {
+  border: #69c5ff 2px;
+  text-align: center;
+}
 footer li {
   display: inline;
-  padding: 8px;
+  padding: 18px;
   font-size: 20px;
 }
-footer i {
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-  text-align: left;
+
+footer a {
+  font-weight: bold;
+  color: rgb(183, 186, 255);
 }
 
 /* The typing effect */
@@ -156,9 +156,8 @@ footer i {
   align-items: center;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: #fff;
+
   color: black;
-  box-shadow: 0 2px 2px 2px rgba(173, 218, 255, 0.23);
 }
 
 navbar.css .brand-name {
@@ -247,7 +246,7 @@ navbar.css .brand-name {
     margin-bottom: 75px;
   }
   h3 {
-    font-size: 40px;
+    font-size: 25px;
   }
   .skills li {
     display: block;
