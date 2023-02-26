@@ -8,10 +8,15 @@ export default function Projects() {
       <MainLayout>
         <h1>Projects</h1>
         <div class="container">
-          <hr></hr>
           <div class="row">
+            <br></br>
             <div class="col">
-              <h2> Vanilla JavaScript Weather App</h2>
+              <h5> Vanilla JavaScript Weather App</h5>
+              <p>
+                What the project does: It displays the current date and time.
+                Allows users to search in the city in the world or use their
+                current location to display the current temperature and forcast.
+              </p>
               <a
                 href="https://shimmering-kelpie-e14ec7.netlify.app/"
                 alt="Weather app Live"
@@ -30,13 +35,20 @@ export default function Projects() {
               </a>
             </div>
             <div class="col">
-              <img src="Weather.png" alt="Weather App" width="300" />
+              <a
+                href="https://github.com/yosoytiara/Weather-app"
+                alt="Weather app Live"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="Weather.png" alt="Weather App" width="300" />
+              </a>
             </div>
           </div>
-          <hr></hr>
+          <br></br>
           <div class="row">
             <div class="col">
-              <h2>React Weather App</h2>
+              <h5>React Weather App</h5>
               <a
                 href="https://imaginative-khapse-6ac5b0.netlify.app/"
                 alt="Weather app Live"
@@ -46,7 +58,7 @@ export default function Projects() {
                 <em>Live </em>
               </a>
               <a
-                href="https://github.com/yosoytiara/RefyBeauty"
+                href="https://github.com/yosoytiara/React-Weather-app"
                 alt="React Weather app Github"
                 target="_blank"
                 rel="noreferrer"
@@ -55,16 +67,28 @@ export default function Projects() {
               </a>
             </div>
             <div class="col">
-              <img src="react.png" alt="React Weather App" width="400" />
-            </div>
-          </div>
-
-          <hr></hr>
-          <div class="row ">
-            <div class="col">
-              <h2> Refy Beauty Landing Page</h2>
               <a
                 href="https://github.com/yosoytiara/React-Weather-app"
+                alt="React Weather app Github"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="react.png" alt="React Weather App" width="400" />
+              </a>
+            </div>
+          </div>
+          <br></br>
+          <div class="row ">
+            <div class="col">
+              <h5> Refy Beauty Landing Page</h5>
+              <p>My entry for SheCodes Beauty Brand Landing Page Challenge💄</p>
+              <p>
+                What the project does: A landing page for beauty brand Refy
+                Beauty
+              </p>
+
+              <a
+                href="https://github.com/yosoytiara/RefyBeauty"
                 alt="Reft Beauty app Github"
                 target="_blank"
                 rel="noreferrer"
@@ -74,17 +98,23 @@ export default function Projects() {
             </div>
             <div class="col">
               <div className="refy">
-                <img
-                  src="refy1.gif"
-                  alt="Refy Beauty Landing page"
-                  width="400"
-                  className="refy-img"
-                />
+                <a
+                  href="https://github.com/yosoytiara/RefyBeauty"
+                  alt="Reft Beauty app Github"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="refy1.gif"
+                    alt="Refy Beauty Landing page"
+                    width="400"
+                    className="refy-img"
+                  />
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <hr></hr>
       </MainLayout>
     </div>
   );
