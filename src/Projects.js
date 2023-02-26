@@ -14,8 +14,8 @@ export default function Projects() {
               <h5> Vanilla JavaScript Weather App</h5>
               <p>
                 What the project does: It displays the current date and time.
-                Allows users to search in the city in the world or use their
-                current location to display the current temperature and forcast.
+                Allows users to search a city or use their current location to
+                display the current temperature and forecast.
               </p>
               <a
                 href="https://shimmering-kelpie-e14ec7.netlify.app/"
@@ -49,6 +49,11 @@ export default function Projects() {
           <div class="row">
             <div class="col">
               <h5>React Weather App</h5>
+              <p>
+                What the project does: Weather app made with React framework
+                allows users to search any in the city in the world to display
+                the current temperature and forecast.
+              </p>
               <a
                 href="https://imaginative-khapse-6ac5b0.netlify.app/"
                 alt="Weather app Live"
