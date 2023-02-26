@@ -7,7 +7,7 @@ export default function Main() {
     <div className="main">
       <Nav />
       <div class="Intro">
-        <h1>Tiara Dillard</h1>
+        <h1>Tiara🦋Dillard</h1>
         <h3>Front-End Developer</h3>
         <div class="info">
           <p>
@@ -66,7 +66,7 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fa-solid fa-envelope"></i>
+              Email
             </a>
           </li>
           <li>
@@ -75,7 +75,7 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fa-brands fa-square-github"></i>
+              Github
             </a>
           </li>
           <li>
@@ -84,11 +84,21 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fa-brands fa-linkedin"></i>
+              Linkedin
             </a>
           </li>
         </ul>
-        <p>©Tiara Dillard</p>
+        <p>
+          Designed & Developed by{" "}
+          <a
+            href="https://github.com/yosoytiara/Tiara-Portfolio-"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Tiara Dillard
+          </a>{" "}
+          ©Tiara Dillard
+        </p>
       </footer>
       <script
         src="https://kit.fontawesome.com/452d94b75d.js"
