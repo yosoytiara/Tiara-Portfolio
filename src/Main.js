@@ -20,10 +20,6 @@ export default function Main() {
       <br />
       <br />
 
-      {/*<span className="project-link">
-        <Link to="/projects"> View Projects</Link>
-  </span> */}
-
       <div class="Skills">
         <p className="techs">Skills & Tools </p>
         <ul id="listone" class="listone">
