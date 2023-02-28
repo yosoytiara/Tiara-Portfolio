@@ -66,6 +66,14 @@ a:visited {
   color: rgb(246, 145, 211);
 }
 
+.project-link {
+  margin-left: 650px;
+
+  padding: 8px 20px;
+  background-color: rgb(183, 186, 255);
+  color: rgb(255, 255, 255);
+}
+
 .NA {
   text-align: center;
 }

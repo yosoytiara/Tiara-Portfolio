@@ -120,6 +120,48 @@ export default function Projects() {
             </div>
           </div>
         </div>
+        <footer id="footer">
+          <ul>
+            <li>
+              <a
+                href="mailto: tiara.dillard2@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Email
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/yosoytiara/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+            </li>
+            <li>
+              <a
+                href="http://www.linkedin.com/in/tiara-dillard"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Linkedin
+              </a>
+            </li>
+          </ul>
+          <p>
+            Designed & Developed by{" "}
+            <a
+              href="https://github.com/yosoytiara/Tiara-Portfolio-"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Tiara Dillard
+            </a>{" "}
+            ©Tiara Dillard
+          </p>
+        </footer>
       </MainLayout>
     </div>
   );

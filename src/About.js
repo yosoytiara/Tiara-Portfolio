@@ -86,6 +86,17 @@ export default function About() {
               </a>
             </li>
           </ul>
+          <p>
+            Designed & Developed by{" "}
+            <a
+              href="https://github.com/yosoytiara/Tiara-Portfolio-"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Tiara Dillard
+            </a>{" "}
+            ©Tiara Dillard
+          </p>
         </footer>
       </MainLayout>
     </div>
