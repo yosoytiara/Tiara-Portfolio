@@ -19,9 +19,11 @@ export default function Main() {
       <hr />
       <br />
       <br />
-      <span className="project-link">
+
+      {/*<span className="project-link">
         <Link to="/projects"> View Projects</Link>
-      </span>
+  </span> */}
+
       <div class="Skills">
         <p className="techs">Skills & Tools </p>
         <ul id="listone" class="listone">
