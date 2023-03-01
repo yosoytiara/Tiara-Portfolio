@@ -119,6 +119,44 @@ export default function Projects() {
               </div>
             </div>
           </div>
+          <br></br>
+          <div class="row ">
+            <div class="col">
+              <h5> To Do APP</h5>
+
+              <p>
+                What the project does: It allows users to create a todo list.
+                Users are able to edit or delete tasks and are able to see
+                previous saved tasks
+              </p>
+
+              <a
+                href="https://github.com/yosoytiara/To-Do-List"
+                alt="Todo app Github"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>Code</span>
+              </a>
+            </div>
+            <div class="col">
+              <div className="refy">
+                <a
+                  href="https://github.com/yosoytiara/To-Do-List"
+                  alt="Todo app Github"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="Screen Shot 2023-02-28 at 10.51.39 PM.png"
+                    alt="Refy Beauty Landing page"
+                    width="400"
+                    className="refy-img"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
         <footer id="footer">
           <ul>
