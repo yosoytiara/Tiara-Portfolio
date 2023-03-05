@@ -95,7 +95,7 @@ export default function About() {
             >
               Tiara Dillard
             </a>{" "}
-            ©Tiara Dillard
+            ©Tiara Dillard 2023
           </p>
         </footer>
       </MainLayout>
