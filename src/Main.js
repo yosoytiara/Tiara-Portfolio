@@ -84,7 +84,7 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              Linkedin
+              LinkedIn
             </a>
           </li>
         </ul>
