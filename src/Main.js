@@ -62,7 +62,7 @@ export default function Main() {
         <ul>
           <li>
             <a
-              href="mailto: tiara.dillard2@gmail.com"
+              href="mailto: contact@tiara-evelyn.com"
               target="_blank"
               rel="noreferrer"
             >

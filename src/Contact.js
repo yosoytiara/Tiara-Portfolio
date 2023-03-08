@@ -10,11 +10,11 @@ export default function Contact() {
         <ul class="contact-links">
           <li>
             <a
-              href="mailto: tiara.dillard2@gmail.com"
+              href="mailto: contact@tiara-evelyn.com"
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fa-solid fa-envelope"></i>Tiara.Dillard2@gmail.com
+              <i class="fa-solid fa-envelope"></i>Contact@tiara-evelyn.com
             </a>
           </li>
           <li>
